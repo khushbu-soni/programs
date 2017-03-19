@@ -7,9 +7,7 @@ import java.util.Scanner;
 public class String1 {
 	public static void main(String[] args) {
 		String s = null;
-		
 		Scanner string = new Scanner(System.in);
-		System.out.println("Enter String:::");
 		if (string.hasNext()) {
 			s = string.next();
 			char[] charArray = s.toCharArray();
@@ -28,7 +26,6 @@ public class String1 {
 				}
 			}
 			System.out.println("Result " + result);
-			string.close();
 		}
 	}
 }
